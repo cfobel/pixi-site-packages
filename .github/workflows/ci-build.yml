@@ -9,4 +9,4 @@ on:
 
 jobs:
   call-build-job:
-    uses: cfobel/pixi-site-packages/.github/workflows/build.yml@34bdcfd351c6169390abd9098d39817521b3d369l
+    uses: cfobel/pixi-site-packages/.github/workflows/build.yml@main

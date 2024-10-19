@@ -38,8 +38,12 @@ platforms = ["linux-64"]
 pixi_site_packages = { path = ".", editable = true }
 
 [tool.pixi.tasks]
+build = "hatchling build"
+lint = "black src tests"
+test = "pytest tests"
 
 [tool.pixi.dependencies]
 isort = ">=5.13.2,<6"
 black = ">=24.10.0,<25"
 jupyter = ">=1.1.1,<2"
+pytest = ">=8.3.3,<9"
